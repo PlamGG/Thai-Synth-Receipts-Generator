@@ -9,3 +9,8 @@ dataset/
 # System Files
 .DS_Store
 Thumbs.db
+
+# Extra Docs
+README_HuggingFace.md
+README_Kaggle.md
+TODO_dataset_fixes.md
