@@ -1,0 +1,22 @@
+﻿num_samples_per_type: 312
+seed: 42
+output_dir: dataset
+doc_types:
+- tax_invoice
+- receipt
+- thermal_slip
+- quotation
+augmentations:
+- blur
+- fold
+- fade
+- broken
+- streaks
+- skew
+- ghosting
+- blob
+- warp
+split_ratio:
+  train: 0.8
+  validation: 0.1
+  test: 0.1
